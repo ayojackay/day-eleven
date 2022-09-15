@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project | Contact</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Titan+One&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c0a1e5dea5.js" crossorigin="anonymous"></script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/contact.css"
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" id="logo"></a>
+            <ul>
+                
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html" aria-current="page">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="heading">Contact Us</h1>
+    </header>
+    <main>
+        <form class="space-md">
+            <!-- name, email, phone number, subject: inquiry, concerns, feedback, message box -->
+            <div>
+                <label for="input-name" class="fw-100">Name</label>
+                <input type="text" id="input-name" name="name" placeholder="Enter your name">
+            </div>
+            
+            <div>
+                <label for="input-email" class="fw-100">Email</label>
+                <input type="email" id="input-email" name="email" placeholder="Enter email">
+            </div>
+            
+            <div>
+                <label for="input-phone" class="fw-100">Phone Number</label>
+                <input type="tel" id="input-phone" name="phonenumber" placeholder="Enter your phone number with area code">
+            </div>
+            
+
+            <div>
+                <label for="input-subject" class="fw-100">Subject</label>
+                <select id="input-subject">
+                    <option value="inquiry">Inquiry</option>
+                    <option value="concerns">Concerns</option>
+                    <option value="feedback" selected>Feedback</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="input-message" class="fw-100">Message</label>
+                <textarea id="input-message" cols="50" rows="10" placeholder="Please tell us your thoughts...">
+
+                </textarea>
+            </div>
+
+            <button type="submit"><i class="fa-solid fa-paper-plane fa-2x"></i></button>
+        </form>
+    </main>
+    <footer class="space-md">
+        <div class="container">
+            <div class="float-left column">
+                <!-- Address info -->
+                <address>
+                    1234 E. Pretend Street<br>
+                    Fresno, Ca 90000
+                </address>
+            </div>
+            <div class="float-left column">
+                <!-- hours of operation -->
+                <p>We're open 5 days a week, weekends off!</p>
+                <p>M - F 10am - 5pm</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="float-left column-33">
+                <!-- social links -->
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://github.com/ayojackay" target="_blank">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                </a>
+            </div>
+            <div class="float-left column-33">
+                <p>&copy; BW WFT - WFB | All rights reserved.</p>
+            </div>
+            <div class="float-left column-33">
+                <!-- logo -->
+                <a href="index.html" id="logo">
+                    <i class="fa-solid fa-folder-closed fa-3x"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

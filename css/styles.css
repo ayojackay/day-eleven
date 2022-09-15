@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(187, 231, 246);
+    font-family: 'Roboto', sans-serif;
+}
+.heading {
+    font-family: 'Titan One', cursive;
+}
+.letter-spacing-sm {
+    letter-spacing: 2px;
+}
+.fw-100 {
+    font-weight: 100;
+}
+nav ul {
+    padding: 42px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+nav ul li > a {
+    text-decoration: none;
+    background-color:rgb(187, 231, 246);
+    padding: 12px 22px;
+}
+nav ul, main {
+    background-color: #e4f3ff;
+}
+main {
+    position: relative;
+    padding: 64px;
+}
+main h2 {
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 92px;
+}
+section h3 {
+    font-size: 28px;
+    /* text-decoration: underline; */
+    margin-bottom: 22px;
+}
+.section-img {
+    width: 45%;
+}
+.column {
+    width: 50%;
+}
+.float-left {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.img-resize {
+    width: 33%;
+}
+.space-md {
+    padding: 56px;
+}
+.backdrop {
+    padding: 25px;
+    background-color: rgb(79, 164, 192);
+}
+
+.hero-jumbotron {
+    position: relative;
+    width: 100vw;
+    height: 640px;
+}
+.hero-jumbotron video {
+    top: 0;
+    width: 100%;
+}
+.hero-jumbotron video, .hero-jumbotron-details {
+    position: absolute;
+}
+
+.hero-jumbotron-details {
+    top: 40%;
+    left: 45%;
+    color: white;
+    font-size: 66px;
+}
+
+footer {
+    height: 280px;
+    text-align: center;
+    background-color: #f7f7f7;   
+}
+footer i {
+    color: rgb(43, 149, 185);
+    margin-right: 10px;
+}
+
+.column-33 {
+    width: 33%;
+}
